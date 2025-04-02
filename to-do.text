@@ -11,7 +11,6 @@
 11. Añadir estilos CSS para mejorar la apariencia del frontend.
 12. Implementar autenticación de usuarios (opcional).
 13. Añadir tests unitarios y de integración para asegurar la calidad del código.
-14. Configurar un sistema de despliegue para el proyecto (por ejemplo, Heroku o Vercel).
 
 
 
