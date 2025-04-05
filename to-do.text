@@ -8,8 +8,7 @@
 8. Crear componentes de React para mostrar, agregar, editar y eliminar tareas.
 9. Implementar la comunicación entre el frontend y el backend utilizando Axios o Fetch API.
 10. Añadir validaciones y manejo de errores en el backend.
-11. Añadir estilos CSS para mejorar la apariencia del frontend.
-12. Implementar autenticación de usuarios (opcional).
+11. Añadir estilos CSS para mejorar la apariencia del frontend.12. Implementar autenticación de usuarios (opcional).
 
 
 
