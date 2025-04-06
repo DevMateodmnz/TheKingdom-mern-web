@@ -1,5 +1,5 @@
 1. Corregir errores ortográficos en el texto existente.
-2. Crear una estructura básica del proyect
+2. Crear una estructura básica del proyectf
 3. Configurar un entorno de desarrollo con Node.js y MongoDB.
 4. Implementar un servidor backed utilizando Express.js.
 5. Crear un modelo de datos para las tareas (to-do items) utilizando Mongoose.
