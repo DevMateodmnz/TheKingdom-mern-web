@@ -15,9 +15,11 @@ const shopReviewRouter = require("./routes/shop/review-routes");
 
 const commonFeatureRouter = require("./routes/common/feature-routes");
 
+//create a database connection -> u can also
+//create a separate file for this and then import/use that file here
 
 mongoose
-  .connect("mongodb+srv://mateo:PITOmd123@thekingdom.2z5fs.mongodb.net/")
+  .connect("db_url")
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.log(error));
 
