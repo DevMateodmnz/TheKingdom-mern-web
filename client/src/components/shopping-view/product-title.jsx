@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 import { brandOptionsMap, categoryOptionsMap } from "@/config";
 import { Badge } from "../ui/badge";
 
-function ShoppingProductTile({
+function ShoppingProductTitle({
   product,
   handleGetProductDetails,
   handleAddtoCart,
@@ -75,4 +75,4 @@ function ShoppingProductTile({
   );
 }
 
-export default ShoppingProductTile;
+export default ShoppingProductTitle;

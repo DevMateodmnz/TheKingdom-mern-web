@@ -1,9 +1,9 @@
-import ProductDetailsDialog from "@/components/shopping-view/product-details";
-import ShoppingProductTile from "@/components/shopping-view/product-tile";
-import { Input } from "@/components/ui/input";
-import { useToast } from "@/components/ui/use-toast";
-import { addToCart, fetchCartItems } from "@/store/shop/cart-slice";
-import { fetchProductDetails } from "@/store/shop/products-slice";
+import ProductDetailsDialog from "../../components/shopping-view/product-title";
+import ShoppingProductTitle from "../../components/shopping-view/product-title";
+import { Input } from "../../components/ui/input";
+import { useToast } from "../../components/ui/use-toast";
+import { addToCart, fetchCartItems } from "../../store/shop/cart-slice";
+import { fetchProductDetails } from "../../store/shop/products-slice";
 import {
   getSearchResults,
   resetSearchResults,
@@ -102,7 +102,7 @@ function SearchProducts() {
       ) : null}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {searchResults.map((item) => (
-          <ShoppingProductTile
+          <ShoppingProductTitle
             handleAddtoCart={handleAddtoCart}
             product={item}
             handleGetProductDetails={handleGetProductDetails}
